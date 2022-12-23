@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProjetoTurmaAluno.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoTurmaAluno"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Button Content="Cadastro de Turmas" HorizontalAlignment="Left" Height="20" Margin="18,16,0,0" VerticalAlignment="Top" Width="114" Click="Turma_Click"/>
+        <Button Content="Cadastro de Alunos" HorizontalAlignment="Left" Height="20" Margin="18,46,0,0" VerticalAlignment="Top" Width="114" Click="Aluno_Click"/>
+        <Button Content="Matricular Aluno" HorizontalAlignment="Left" Height="20" Margin="18,77,0,0" VerticalAlignment="Top" Width="102" Click="Matricular_Click"/>
+        <Button Content="Diário da Turma" HorizontalAlignment="Left" Height="20" Margin="18,109,0,0" VerticalAlignment="Top" Width="92" Click="Diario_Click"/>
+
+    </Grid>
+</Window>
